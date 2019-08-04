@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>Motonori Teshima's Portfolio</title>
+
+    <meta name="description" content="福岡在住のWEBエンジニア/デザイナーです。平成４年生まれの２６歳です。
+        WEBシステムの開発、設計からUI/UXデザインまで幅広くやっております。
+        フロントエンド周りの開発が得意です。" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- No cache -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="lib/ress/ress.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet" />
+    <link href="lib/animateCSS/animate.min.css" rel="stylesheet" />
+    <link href="lib/chartjs/Chart.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/common.css" />
+</head>
+
+<body>
+
+    <div class="loadingWrap"></div>
+
+    <div class="scroll_top_button">
+
+    </div>
+
+    <header class="unLoadingBlock">
+        <div class="header_title_warp">
+            <h1 class="header_title">Motonori Teshimaのポートフォリオ</h1>
+        </div>
+        <div class="header_menu_wrap display_only_pc">
+            <ul class="header_menu">
+                <li><a href="#top">トップ</a></li>
+                <li><a href="#skill">スキル</a></li>
+                <li><a href="#works">実績</a></li>
+                <li><a href="#profile">プロフィール</a></li>
+                <li><a href="http://tesimaru.com/blog">ブログ</a></li>
+            </ul>
+        </div>
+        <div class="sp_menu_button_wrap display_only_sp">
+            <a class="menuTrigger sp_menu_button" data-target="#spMenu" data-override="#spMenuOverride">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </header>
+    <div id="spMenu" class="sp_menu_list_wrap display_only_sp unLoadingBlock">
+        <ul class="sp_menu">
+            <li><a href="#top">トップ</a></li>
+            <li><a href="#skill">スキル</a></li>
+            <li><a href="#works">実績</a></li>
+            <li><a href="#profile">プロフィール</a></li>
+            <li><a href="http://tesimaru.com/blog" target="_blank">ブログ</a></li>
+        </ul>
+    </div>
+    <div id="spMenuOverride" class="menuTrigger sp_menu_override"></div>
+
+    <div id="top" class="hero_header linkInPage unLoadingBlock">
+        <div class="hero_title_wrap">
+            <div class="hero_title">
+                <h2>Motonori Teshima</h2>
+            </div>
+            <div class="hero_subtitle">
+                <h2>WEBエンジニア / デザイナー</h2>
+            </div>
+        </div>
+        <a href="#skill" class="go_down_wrap">
+            <div class="go_down_text_wrap">
+                <h3>Scroll</h3>
+            </div>
+            <div class="go_down_icon_wrap">
+                <svg version="1.1" class="go_down_icon" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="67.8px" height="54.45px"
+                    viewBox="0 0 67.8 54.45" style="enable-background:new 0 0 67.8 54.45;" xml:space="preserve">
+                    <polygon class="go_down_polygon" points="0.9,0.5 66.9,0.5 33.9,53.5 " />
+                </svg>
+            </div>
+        </a>
+    </div>
+
+    <main class="unLoadingBlock">
+        <section id="skill" class="linkInPage section_skill">
+            <div class="section_inline_wrap">
+                <h4 class="section_title inview animated" data-animate="fadeInDown">スキル</h4>
+                <p class="section_detail inview animated" data-animate="fadeInDown">
+                    フロントエンドを中心にバックエンドまで幅広くスキルアップに取り組んできました。</p>
+                <div class="skill_set_wrap">
+                    <div class="skill_wrap inview animated" data-animate="fadeIn" data-duration="0.5s">
+                        <canvas class="raderChart" data-chart="data1" width="100%" height="100%"></canvas>
+                    </div>
+                    <div class="skill_wrap inview animated" data-animate="fadeIn" data-duration="0.5s"
+                        data-delay="0.2s">
+                        <canvas class="raderChart" data-chart="data2" width="100%" height="100%"></canvas>
+                    </div>
+                    <div class="skill_wrap inview animated" data-animate="fadeIn" data-duration="0.5s"
+                        data-delay="0.4s">
+                        <canvas class="raderChart" data-chart="data3" width="100%" height="100%"></canvas>
+                    </div>
+                </div>
+                <div class="chart_detail_wrap inview animated" data-animate="fadeInDown">
+                    <p class="chart_detail">1：触ったことがある</p>
+                    <p class="chart_detail" data-animate="fadeInDown">2：実務で使用したことがあるがもっと学習する必要がある</p>
+                    <p class="chart_detail" data-animate="fadeInDown">3：実務レベルで自由に駆使できる</p>
+                </div>
+            </div>
+        </section>
+        <section id="works" class="linkInPage section_works">
+            <div class="section_inline_wrap">
+                <h4 class="section_title">実績</h4>
+                <div class="cards_wrap_row">
+                    <div class="card_wrap inview animated" data-animate="fadeIn" data-duration="0.5s">
+                        <div class="card_image_wrap">
+                            <img src="img/works/works1.png">
+                        </div>
+                        <div class="card_detail_title">
+                            <p>ポートフォリオサイト</p>
+                        </div>
+                        <div class="card_detail_wrap">
+                            <p>自分のポートフォリオサイトです。</p>
+                        </div>
+                        <div class="card_detail_tools">
+                            <span class="chip front-end">Illustrator</span>
+                            <span class="chip front-end">HTML5</span>
+                            <span class="chip front-end">CSS3</span>
+                            <span class="chip front-end">jQuery</span>
+                            <span class="chip design">デザイン</span>
+                            <span class="chip design ">Adobe XD</span>
+                        </div>
+                        <div class="card_detail_links">
+                            <a href="#" target="_blank"><svg class="work_link"
+                                    href="http://tesimaru.com/portfolio"></svg></a>
+                            <a href="#" target="_blank"><svg class="github_link" href="#"></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="profile" class="section_profile">
+            <div class="section_inline_wrap">
+                <div class="profile_wrap">
+                    <div class="profile_image_wrap">
+                        <img src="img/profile.jpg">
+                    </div>
+                    <div class="profile_detail_wrap">
+                        <p class="profile_name">Motonori Teshima</p>
+                        <p class="profile_detail">福岡在住のWEBエンジニア/デザイナーです。平成4年生まれの26歳です。<br>
+                            WEBシステムの開発、設計からUI/UXデザインまで幅広くやっております。<br>
+                            フロントエンド周りの開発が得意です。
+                        </p>
+                        <p class="profile_address">所在地：福岡市博多区</p>
+                        <p class="profile_contact">連絡先：<a href="mailto:info@tesimaru.com">info@tesimaru.com</a></p>
+                    </div>
+                </div>
+                <div class="profile_links">
+                    <a href="http://tesimaru.com/blog/" target="_blank">Blog</a>
+                    <a href="https://github.com/ts-motonori" target="_blank">Github</a>
+                    <a href="https://twitter.com/simasimanori" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="unLoadingBlock">
+        <p class="footer_copyright">© 2019 Motonori Teshima</p>
+    </footer>
+
+
+
+
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="lib/jquery/jquery.inview.min.js"></script>
+    <script src="lib/chartjs/Chart.min.js"></script>
+    <script src="js/chart_data.js"></script>
+    <script src="js/initialize.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+
+</html>
