@@ -164,9 +164,13 @@ header>div {
     animation: gradient 15s ease infinite;
 }
 
+.hero_title_wrap {
+    text-align: center;
+}
+
 .hero_title h2 {
     font-size: 48px;
-    font-family: "Comfortaa", cursive;
+    font-family: "M PLUS Rounded 1c";
     letter-spacing: 5px;
     position: relative;
     opacity: 0;
